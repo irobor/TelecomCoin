@@ -1,4 +1,4 @@
-*.sol  linguist-language=JavaScript
+
 * linguist-vendored
 *.sol linguist-vendored=false
 
