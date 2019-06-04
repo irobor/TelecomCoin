@@ -1,3 +1,4 @@
+*.sol  linguist-language=JavaScript
 * linguist-vendored
 *.sol linguist-vendored=false
-*.sol  linguist-language = JavaScript
+
