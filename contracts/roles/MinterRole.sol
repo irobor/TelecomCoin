@@ -1,6 +1,5 @@
 pragma solidity ^0.5.0;
 
-import "browser/Ownable.sol";
 import "github.com/irobor/TelecomCoin/contracts/roles/Roles.sol";
 import "github.com/irobor/TelecomCoin/contracts/ownership/Ownable.sol";
 
