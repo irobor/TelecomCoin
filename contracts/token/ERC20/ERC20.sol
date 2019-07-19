@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-import "github.com/irobor/TelecomCoin/contracts/token/ERC20/IERC20.sol";
+import "./IERC20.sol";
 import "github.com/irobor/TelecomCoin/contracts/math/SafeMath.sol";
 
 /**
