@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
-import "browser/ERC20Mintable.sol";
-import "browser/ERC20Burnable.sol";
+import "github.com/irobor/TelecomCoin/contracts/token/ERC20/ERC20Mintable.sol";
+import "github.com/irobor/TelecomCoin/contracts/token/ERC20/ERC20Burnable.sol";
 
 /**
  * @dev Optional functions from the ERC20 standard.
