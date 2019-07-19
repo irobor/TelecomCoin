@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-import "browser/ERC20.sol";
+import "github.com/irobor/TelecomCoin/contracts/token/ERC20/ERC20.sol";
 
 /**
  * @dev Extension of `ERC20` that allows token holders to destroy both their own
