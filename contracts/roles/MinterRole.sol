@@ -1,7 +1,8 @@
 pragma solidity ^0.5.0;
 
-import "browser/Roles.sol";
 import "browser/Ownable.sol";
+import "github.com/irobor/TelecomCoin/contracts/roles/Roles.sol";
+import "github.com/irobor/TelecomCoin/contracts/ownership/Ownable.sol";
 
 contract MinterRole is Ownable {
     using Roles for Roles.Role;
