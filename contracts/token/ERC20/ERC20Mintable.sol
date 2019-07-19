@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
-import "browser/ERC20.sol";
-import "browser/MinterRole.sol";
+import "github.com/irobor/TelecomCoin/contracts/token/ERC20/ERC20.sol";
+import "github.com/irobor/TelecomCoin/contracts/roles/MinterRole.sol";
 
 /**
  * @dev Extension of `ERC20` that adds a set of accounts with the `MinterRole`,
