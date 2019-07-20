@@ -3,7 +3,7 @@ pragma solidity ^0.5.0;
 
 
 
-contract CrowdsaleERC20 {
+contract Crowdsale{
     
     
     
