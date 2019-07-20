@@ -1,8 +1,8 @@
 pragma solidity ^0.5.0;
 
-import "../token/ERC20/TelecomCoin.sol";
-import "../utils/ReentrancyGuard.sol" ;
 
+import "github.com/irobor/TelecomCoin/contracts/token/ERC20/TelecomCoin.sol";
+import "github.com/irobor/TelecomCoin/contracts/utils/ReentrancyGuard.sol";
 
 
 contract Crowdsale is ReentrancyGuard{
@@ -10,7 +10,7 @@ contract Crowdsale is ReentrancyGuard{
     using SafeMath for uint256;
     // The token being sold
     // Token это имя контракта самого токна, код токена нужно подключить через импорт
-    TelecomToken private _token;
+    TelecomCoin private _token;
     
     // How many token units a buyer gets per wei.
     // Сколько токенов покупатель получает за вей.
@@ -48,7 +48,7 @@ contract Crowdsale is ReentrancyGuard{
      * кошелек Адрес, куда собранные средства будут направлены
      * token Адрес продаваемого токена
      */
-     constructor (uint256 rate, address payable wallet, TelecomToken token) public {
+     constructor (uint256 rate, address payable wallet, TelecomCoin token) public {
         require(rate > 0, "Crowdsale: rate is 0");
         require(wallet != address(0), "Crowdsale: wallet is the zero address");
         require(address(token) != address(0), "Crowdsale: token is the zero address");
