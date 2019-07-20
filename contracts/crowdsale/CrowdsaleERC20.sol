@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 
 import "./token/ERC20/TelecomCoin.sol";
-import "../utils/ReentrancyGuard.sol" ;
+import "./utils/ReentrancyGuard.sol" ;
 
 
 contract Crowdsale is ReentrancyGuard{
