@@ -6,7 +6,7 @@ import "github.com/irobor/TelecomCoin/contracts/token/ERC20/ERC20Burnable.sol";
 /**
  * @dev Optional functions from the ERC20 standard.
  */
-contract TelecomToken is ERC20Mintable, ERC20Burnable  {
+contract TelecomCoin is ERC20Mintable, ERC20Burnable  {
     string private _name;
     string private _symbol;
     uint8 private _decimals;
